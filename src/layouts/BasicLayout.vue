@@ -9,12 +9,15 @@
   </div>
 </template>
 
+<script setup lang="ts">
+import GlobalHeader from "@/components/GlobalHeader.vue";
+</script>
 <style scoped>
 #basicLayout {
 }
 #basicLayout .-header {
-  background: red;
   margin-bottom: 16px;
+  box-shadow: #eee 1px 1px 5px;
 }
 #basicLayout .-content {
   background: blue;
@@ -30,6 +33,3 @@
   text-align: center;
 }
 </style>
-<script setup lang="ts">
-import GlobalHeader from "@/components/GlobalHeader.vue";
-</script>
